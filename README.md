@@ -23,6 +23,7 @@ This project is designed to transform raw seismic data into more meaningful anal
 - Includes exception handling for bad input files or invalid values
 - Includes Pytest test cases for core logic
 
+##Team Contributions
 
 Corinthian Bray: Core classes and main program
 

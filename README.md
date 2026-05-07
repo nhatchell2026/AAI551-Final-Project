@@ -25,7 +25,7 @@ This project is designed to transform raw seismic data into more meaningful anal
 
 ## Team Contributions
 
-Corinthian Bray: Core classes and main program
+# Corinthian Bray: Core classes and main program
 
 - This can be your set.
 - Initial project structure
@@ -62,7 +62,7 @@ Commit message:
 Commit message:
 - Connected classes and analysis workflow in main program
 
-#Nolan Hatchell-McNeil: Data handling and analysis
+# Nolan Hatchell-McNeil: Data handling and analysis
 - This person can focus on the functions and data side.
 - CSV loader
 - create file loading logic
@@ -92,7 +92,7 @@ Commit message:
 Commit message:
 - Added processed earthquake results export to CSV
 
-#Owusu Kwaku: Notebook, testing, and documentation
+# Owusu Kwaku: Notebook, testing, and documentation
 
 - This person can handle demonstration and project polish.
 

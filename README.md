@@ -1,5 +1,3 @@
-# AAI551-Final-Project
-
 # Earthquake Analysis System
 
 ## Team Members
@@ -24,6 +22,112 @@ This project is designed to transform raw seismic data into more meaningful anal
 - Saves processed analysis results to a CSV file
 - Includes exception handling for bad input files or invalid values
 - Includes Pytest test cases for core logic
+
+
+Corinthian Bray: Core classes and main program
+
+-This can be your set.
+-Initial project structure
+-create folders: src, tests, notebook, data, results
+-add starter files
+
+Commit message:
+
+-Set up project folder structure and starter files
+-Base class
+-add EarthquakeEvent
+-include attributes and severity classification
+
+Commit message:
+
+-Added EarthquakeEvent class with severity classification
+-Subclass
+-add AnalyzedEarthquake
+-inheritance from EarthquakeEvent
+
+Commit message:
+
+-Implemented AnalyzedEarthquake subclass with analysis fields
+-Special methods
+-add __str__()
+-add __eq__()
+
+Commit message:
+
+-Added __str__ and __eq__ methods to earthquake classes
+-Main program integration
+-connect loading, analysis, and output in main.py
+
+Commit message:
+-Connected classes and analysis workflow in main program
+
+#Nolan Hatchell-McNeil: Data handling and analysis
+-This person can focus on the functions and data side.
+-CSV loader
+-create file loading logic
+-read USGS CSV with pandas
+
+Commit message:
+-Added CSV loading for USGS earthquake dataset
+-Custom exception handling
+-add DataLoadError
+-handle missing or bad files
+
+Commit message:
+-Added custom exception handling for invalid dataset input
+-Risk score function
+-create compute_risk_score()
+
+Commit message:
+-Implemented earthquake risk score calculation function
+-Clustering function
+-create cluster_earthquakes()
+
+Commit message:
+-Added clustering logic to identify earthquake hotspots
+-Save results
+-export processed results to CSV
+
+Commit message:
+-Added processed earthquake results export to CSV
+
+#Owusu Kwaku: Notebook, testing, and documentation
+
+-This person can handle demonstration and project polish.
+
+-Pytest for severity
+-add test for classify_severity()
+
+-Commit message:
+
+-Added pytest case for earthquake severity classification
+-Pytest for risk score
+-add test for compute_risk_score()
+
+-Commit message:
+
+-Added pytest case for earthquake risk score function
+-Notebook setup
+-create Jupyter notebook sections
+-load data and demonstrate workflow
+
+-Commit message:
+
+-Created Jupyter notebook for earthquake analysis workflow
+-Visualizations
+-add histogram, bar chart, scatter plot
+
+Commit message:
+-Added earthquake data visualizations to notebook
+-README
+-add project description
+-add run instructions
+-add team contribution breakdown
+
+Commit message:
+-Wrote README with setup instructions and team contributions
+
+
 
 ## Project Structure
 ```text
@@ -55,3 +159,6 @@ python -m pip install pandas matplotlib pytest
 5. Run the program with:
 
 python src/main.py
+
+
+
